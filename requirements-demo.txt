@@ -1,0 +1,2 @@
+# The offline example and unittest suite use Python standard library only.
+# No pip installation is needed. Full service dependencies are in requirements.txt.

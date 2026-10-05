@@ -1,0 +1,787 @@
+{
+  "schema_version": 2,
+  "status": "READY_FOR_GITHUB",
+  "source_revision": "068501432f15d01e89d9fae144c8c362540a8ceb",
+  "recipe_sha256": "20b7071ae8b8b856a066d6b781de431053abf6de7ae0099815b5ef3ee9cd49fa",
+  "media_lock_sha256": "c30d9549293515e2b5790d4f5b477ba246af403ccb13c21b32549b868f9f466b",
+  "git_history_included": false,
+  "source_ownership": "PENDING",
+  "code_license": "NOT_GRANTED",
+  "publication_authorization": "USER_REQUESTED",
+  "remote_publication": "NOT_RUN",
+  "remote_ci": "NOT_RUN",
+  "manifest_scope": "Every delivered file except this manifest; its digest is in the build receipt.",
+  "files": [
+    {
+      "path": ".dockerignore",
+      "size": 5603,
+      "sha256": "a2db06bbd76706de8045532b9c8a38aa9e9915d823d2654b92cfd2c3035c0bee",
+      "origin": "GIT_COMMIT",
+      "blob": "0f942ed74fd72f77f705e7c1b2ce41c003a21edf"
+    },
+    {
+      "path": ".env.example",
+      "size": 1439,
+      "sha256": "29bb225c2c2b62e15d07ca4f6c39aeeed77a4c968e2ddca748608266b2ad6b0f",
+      "origin": "GIT_COMMIT",
+      "blob": "93fe0a70f56ad346d239014d753c394f815ac299"
+    },
+    {
+      "path": ".github/workflows/offline-demo.yml",
+      "size": 1042,
+      "sha256": "99b9c1aed79bcc04e32064b0fae08024858f2e94e93afaea394067abff1cc35c",
+      "origin": "PORTFOLIO_TEMPLATE",
+      "source": "packaging/github-portfolio/files/.github/workflows/offline-demo.yml"
+    },
+    {
+      "path": ".gitignore",
+      "size": 685,
+      "sha256": "9e87e64d1fcc8aa9cf9ff06e4116b33d5e591599498043eaf174f30ea496cdab",
+      "origin": "SHOWCASE_TEMPLATE"
+    },
+    {
+      "path": "Dockerfile",
+      "size": 599,
+      "sha256": "b6f98768f1807fa3ee30493003f1576f2683ef012f7b69ded060f7eae9bbdb6a",
+      "origin": "GIT_COMMIT",
+      "blob": "b0a3363cdd6cdb758c35a666484dd4de2b6e1843"
+    },
+    {
+      "path": "README.md",
+      "size": 6579,
+      "sha256": "064f3a2e02d2421b19b63ddf3bd1b1ee23c8904e166c29596ebf14a3452f813e",
+      "origin": "PORTFOLIO_TEMPLATE",
+      "source": "packaging/github-portfolio/files/README.md"
+    },
+    {
+      "path": "RELEASE_STATUS.md",
+      "size": 2267,
+      "sha256": "be3096c62f730c1fff57a46039d7efddfaea7c12ecd0f17a4b498085215c13e2",
+      "origin": "PORTFOLIO_TEMPLATE",
+      "source": "packaging/github-portfolio/files/RELEASE_STATUS.md"
+    },
+    {
+      "path": "app/__init__.py",
+      "size": 45,
+      "sha256": "a34a7a1e420d9061a2ad79018fe2cb43dc8f17a01f8883b703036e8621a47f98",
+      "origin": "GIT_COMMIT",
+      "blob": "1c6044c6b82666086417b2ed116b915d0df03498"
+    },
+    {
+      "path": "app/agent/__init__.py",
+      "size": 22,
+      "sha256": "ca37cf65a0b5a799b100658489db11c7bf5c7de496a53d7763e080b77b5b29ae",
+      "origin": "GIT_COMMIT",
+      "blob": "a117a71130faaec29f9b6a5cd7390a1f38466fea"
+    },
+    {
+      "path": "app/agent/catalog.py",
+      "size": 35185,
+      "sha256": "29a30427a99dd2ff55ac53b33aaacad011133bc80f05fcbcef16b643210caaa8",
+      "origin": "GIT_COMMIT",
+      "blob": "5748feffe0ff97a07453216c5c1f0e3378d9958e"
+    },
+    {
+      "path": "app/agent/claim_effect_graph.py",
+      "size": 12343,
+      "sha256": "0db0af75155e7d2ddff9fd1a8bba4d98b1a66e42a88d4ef41b1d0629005575ad",
+      "origin": "GIT_COMMIT",
+      "blob": "d8a9ba1b8f33809cd785003a2e392c6b2d57138b"
+    },
+    {
+      "path": "app/agent/claim_graph.py",
+      "size": 9058,
+      "sha256": "f2d0d0e645e558d558f371eb11f5263462a7f95b7549003ef91b360a72874ffb",
+      "origin": "GIT_COMMIT",
+      "blob": "69b2c297ad8b256b817ffc80e02b412aacd5f9ea"
+    },
+    {
+      "path": "app/agent/claim_publication.py",
+      "size": 14340,
+      "sha256": "7565dbd7e4b0cda8e314ac03013178fb7daa37ec0951549497210acb3f990352",
+      "origin": "GIT_COMMIT",
+      "blob": "9a24e78316d3b3c93ec400bd2f916b7f88ea467b"
+    },
+    {
+      "path": "app/agent/claim_retrieval.py",
+      "size": 3857,
+      "sha256": "266e000a208ff18e498416ffc38c92abf1d7f79c964df78c83c475a15e466d6d",
+      "origin": "GIT_COMMIT",
+      "blob": "f616e413000a1a7686ed82f1fcf9a21cf83947bd"
+    },
+    {
+      "path": "app/agent/claim_semantics.py",
+      "size": 7850,
+      "sha256": "8c678c44989ed8de959ba167f98261095b6275637e0ddbc05d808c80d93b2ae0",
+      "origin": "GIT_COMMIT",
+      "blob": "09e97ca975318fbbcb168e69d6432ac62df04b11"
+    },
+    {
+      "path": "app/agent/claim_sources.py",
+      "size": 12073,
+      "sha256": "f9add50cdb8e795294fe48c99ea09924d9c389b32db35822973c265719ccd1cd",
+      "origin": "GIT_COMMIT",
+      "blob": "9a2d0a303759520bb7749deeb9d333bfed675c2f"
+    },
+    {
+      "path": "app/agent/claim_verification.py",
+      "size": 13056,
+      "sha256": "6977c23d5ffb39b63b6c3ed1a1870364f1c611fa6ca6387f04e556e96fc3d1a6",
+      "origin": "GIT_COMMIT",
+      "blob": "fa7f5507fdf5a18c70aaf12c5793289b273967ad"
+    },
+    {
+      "path": "app/agent/diagnostic_facts.py",
+      "size": 1695,
+      "sha256": "a825f10ee0072c8798370d511b2bc4edada72bc837aed7793b3819536a6c4e51",
+      "origin": "GIT_COMMIT",
+      "blob": "8130f3c3248c939b8f279ad7e15cd1015b40f4d0"
+    },
+    {
+      "path": "app/agent/execution.py",
+      "size": 1887,
+      "sha256": "a5c35433bc40b61f6f5d5b26bfabeb8e6aab7f89c00fdce2b2dd81afd6280304",
+      "origin": "GIT_COMMIT",
+      "blob": "7e9a0511d9816e4d9a47e78f74a337b0a12c0e25"
+    },
+    {
+      "path": "app/agent/graph.py",
+      "size": 8781,
+      "sha256": "7129a9990da1b5215b929fd7fc174ca51cd7e5bc7ccea8042302fe9580903268",
+      "origin": "GIT_COMMIT",
+      "blob": "3ec5c9badf86c68fec85aab388568049e9489f6a"
+    },
+    {
+      "path": "app/agent/nodes.py",
+      "size": 61221,
+      "sha256": "7f6e3019a90842b6d34ab6b8dfeb63d84cfef97f81fc3e6f50501ccef52de96a",
+      "origin": "GIT_COMMIT",
+      "blob": "ec83467fe1ffe592d17fdea8379e4e82bf7b543f"
+    },
+    {
+      "path": "app/agent/prompts.py",
+      "size": 12557,
+      "sha256": "966f4668d43c5092751ce2beb77348e69c3c6f22ca418b5fefa1f5e476b145a8",
+      "origin": "GIT_COMMIT",
+      "blob": "35f26af3f1072a2787adc323a9cc261a11637f02"
+    },
+    {
+      "path": "app/agent/runtime_context.py",
+      "size": 1616,
+      "sha256": "5e137dc0b5a1222dbb77c44044a64ba802598d7e837332ef517022ef788df021",
+      "origin": "GIT_COMMIT",
+      "blob": "6963a99473c574a145537f0d6e32cc349fef659f"
+    },
+    {
+      "path": "app/agent/safety.py",
+      "size": 3822,
+      "sha256": "b3ecbe629117f5788b9e8f47c22f30c165bd58922df5baf89ca76bd099d75fc8",
+      "origin": "GIT_COMMIT",
+      "blob": "e44f1284ab9413ae3eff1823e73b47870e29bc1b"
+    },
+    {
+      "path": "app/agent/state.py",
+      "size": 7541,
+      "sha256": "785420ba7dea5e9a096dd64b55248aa75a9ff038c91bbccbb33227a5a4526e16",
+      "origin": "GIT_COMMIT",
+      "blob": "9dd831b98e3e741abc28a61b1d79d6efe22c5635"
+    },
+    {
+      "path": "app/agent/synthetic_evidence.py",
+      "size": 47258,
+      "sha256": "3b8ddc21c9af3a2ddac077e82cb765a468cfa10ebb76a921e312f3dc7d653136",
+      "origin": "GIT_COMMIT",
+      "blob": "7d54461298adb06fa40d49b9a643f177c71267fa"
+    },
+    {
+      "path": "app/agent/tool_loop.py",
+      "size": 81080,
+      "sha256": "d6ce99eccf0abc98f34043bb58124049339cf1f02bcb4b6fd2a9dfbf70d3f430",
+      "origin": "GIT_COMMIT",
+      "blob": "48ac566ea03c17d59f7abab9a600e982e44d43b5"
+    },
+    {
+      "path": "app/agent/tools.py",
+      "size": 4941,
+      "sha256": "6484170903733209062fb774702c3e09ad00f308acfd5d7f711334a2fbd83e52",
+      "origin": "GIT_COMMIT",
+      "blob": "7ddcb3583516a887314d10d8604b18cde4006cea"
+    },
+    {
+      "path": "app/api/__init__.py",
+      "size": 23,
+      "sha256": "27287d2f9cba1be79974294d12fd2f184a7ed04cf1224c54157766fee6f70246",
+      "origin": "GIT_COMMIT",
+      "blob": "d107cf50d4858114c2f44a8ae792607b3c6c914f"
+    },
+    {
+      "path": "app/api/chat.py",
+      "size": 6664,
+      "sha256": "f6305098db6b52bb6a05013919b013cdf58bb57df71cfd038dda11f98b4cd777",
+      "origin": "GIT_COMMIT",
+      "blob": "3b65b4ba4aa2bed1375bdfe93f75e3ff71a2eee5"
+    },
+    {
+      "path": "app/api/devices.py",
+      "size": 2367,
+      "sha256": "ed6cc985275d87ac1b7b916efcee7f2f5baf63f01f8de41862e3a67b763fed77",
+      "origin": "GIT_COMMIT",
+      "blob": "4dd6c0b115c35631c69e55fc637f7b08a55030c0"
+    },
+    {
+      "path": "app/api/diagnostic_sessions.py",
+      "size": 15010,
+      "sha256": "51f87067a89a5e2abf6c72bb285e9b661a3f33a615092710d3cc2d0009b22f69",
+      "origin": "GIT_COMMIT",
+      "blob": "5a19ce122b429801b277f6471f7eaf4a2496f17b"
+    },
+    {
+      "path": "app/api/documents.py",
+      "size": 10565,
+      "sha256": "b01991b18e9b63077b587a6e7b1796d466d5d8886a155b9b95a0b7787a2ad4c3",
+      "origin": "GIT_COMMIT",
+      "blob": "bcea2cc1b16f610d8429f9a3c11b088d6b2bb490"
+    },
+    {
+      "path": "app/api/tickets.py",
+      "size": 4106,
+      "sha256": "ab46cddf173955c70fe597aa53e922e49707407ec53e6a91e6e6984394f41f1c",
+      "origin": "GIT_COMMIT",
+      "blob": "e85cae22af7f88e1d805089e5f974508b73e4d02"
+    },
+    {
+      "path": "app/core/__init__.py",
+      "size": 25,
+      "sha256": "7e0a225862e5bb941370ed7db64ca64c58c63b294c5c26d2b5b8fc6f56b6f244",
+      "origin": "GIT_COMMIT",
+      "blob": "8e32e64d4dad05a9cf45ce1e901741dd6752d604"
+    },
+    {
+      "path": "app/core/config.py",
+      "size": 1773,
+      "sha256": "ce2b5159ac8761b4863db7c14021999b6323b9a7cd915320d75fefe476a2935d",
+      "origin": "GIT_COMMIT",
+      "blob": "07a815e8ff0dcf8b53f87358e03e8b269798d091"
+    },
+    {
+      "path": "app/database/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "GIT_COMMIT",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "app/database/connection.py",
+      "size": 1156,
+      "sha256": "aa287d3a9c76936b288f9abf08f3fdaa6975a6482d74042f560f753eb410cbb8",
+      "origin": "GIT_COMMIT",
+      "blob": "cceb757b0529cdb67bd0bf7353032d3d6b81634a"
+    },
+    {
+      "path": "app/database/migrations.py",
+      "size": 2439,
+      "sha256": "dd2c7300b8c6eff2f2d69b547a813477a055a2631634726d4d292c77a1d1a3e0",
+      "origin": "GIT_COMMIT",
+      "blob": "6bcc83c6de3d46abe12fc15725b0d027735346ea"
+    },
+    {
+      "path": "app/database/models.py",
+      "size": 4240,
+      "sha256": "1277f4f189d481cf4a3f7f525bb21fe5e020a7cf4f41c3c69d29453ae984332d",
+      "origin": "GIT_COMMIT",
+      "blob": "a542ac8ca28d4103d1bc17aebd8e4cb22a12e62e"
+    },
+    {
+      "path": "app/database/repositories.py",
+      "size": 10983,
+      "sha256": "1b41c71abdbb2e2dcc54cd48986a697e602aa2113eccfe05cd6ec911a41c86b6",
+      "origin": "GIT_COMMIT",
+      "blob": "6a8f306316c57cf02b4360620946a48dbb63ac45"
+    },
+    {
+      "path": "app/evaluation/__init__.py",
+      "size": 56,
+      "sha256": "0d098d426962848cca38bca87b1d0ec90ae60c90d2eb98cae8f568ac5904811d",
+      "origin": "GIT_COMMIT",
+      "blob": "4402f2a768ae16237b3d53a73f540c8198e90619"
+    },
+    {
+      "path": "app/evaluation/call_parameter_aggregate.py",
+      "size": 9172,
+      "sha256": "61f6b88fc8c92951e4dd519a0e413d49a9931cea1d4266a4c2fb860c826a6715",
+      "origin": "GIT_COMMIT",
+      "blob": "de6357d9482983e6fead4eb7e2decdd34636ea6f"
+    },
+    {
+      "path": "app/evaluation/call_parameter_formula.py",
+      "size": 16583,
+      "sha256": "253306ddcf2ad8572f0b7ba25efd4b874debd4e4818a961f63f49002c09cfcfe",
+      "origin": "GIT_COMMIT",
+      "blob": "cf981b2b1a11c02498b213e46563fee0b1844b0b"
+    },
+    {
+      "path": "app/evaluation/candidate_contract.py",
+      "size": 11059,
+      "sha256": "db93de26f89ad33bb10981316bab833b0e36838b77fea992335ea390ef37cadd",
+      "origin": "GIT_COMMIT",
+      "blob": "54daf4874120a5200519b030ca4df730e96a12a9"
+    },
+    {
+      "path": "app/evaluation/context_plan.py",
+      "size": 20260,
+      "sha256": "49669d4e975782ea36fbc7c142470c3f6f4a56a88b53713ca2ebea3f21222585",
+      "origin": "GIT_COMMIT",
+      "blob": "57960a76562387eae78ad74082e9bec8050599e0"
+    },
+    {
+      "path": "app/evaluation/dataset.py",
+      "size": 10595,
+      "sha256": "e5888b9c757da52219b733f6cea345b982e8156bbe96395bb2f895a15770827e",
+      "origin": "GIT_COMMIT",
+      "blob": "44b17971961975e3708e4957d03d78790b94cc79"
+    },
+    {
+      "path": "app/evaluation/dry_run_report.py",
+      "size": 5687,
+      "sha256": "cea0cebae71713a97e131926ff8e4d08ece11e1cf7d6733005cae13ac6c82f51",
+      "origin": "GIT_COMMIT",
+      "blob": "a4ac5c9d1189f88f2b716fe99bddf5edcf084e38"
+    },
+    {
+      "path": "app/evaluation/formula_aggregate.py",
+      "size": 6714,
+      "sha256": "431b667989cf0da66e9a6ac1d1a2bcac63e78da89071e20a0de611a9797fc341",
+      "origin": "GIT_COMMIT",
+      "blob": "90e6f8e4f01ccb1d49527a7fcd4f255ac51fed08"
+    },
+    {
+      "path": "app/evaluation/formula_scoring.py",
+      "size": 4791,
+      "sha256": "5a61aba63e4e99f9133596fa92d875c164678cb2a0fb6549fa59ecc24ff0dbb0",
+      "origin": "GIT_COMMIT",
+      "blob": "61880e83b0d434c6d52a231f4cb59876a344d45e"
+    },
+    {
+      "path": "app/evaluation/offline_runner.py",
+      "size": 10680,
+      "sha256": "a43e2690cb2082c401ccb1b26f40e753fd6623c2fdfce5c07243a3581c2cb8ad",
+      "origin": "GIT_COMMIT",
+      "blob": "c92ed5282aa5d214bd3ba6ef025133d6661169df"
+    },
+    {
+      "path": "app/evaluation/parallel_formula_activity.py",
+      "size": 7692,
+      "sha256": "70e52f9a803b41e290858aa1cb67e285688b61c128c5ae24c3170339c7c59cbe",
+      "origin": "GIT_COMMIT",
+      "blob": "2f80964217b649741d5911dcd9ca5823c158e454"
+    },
+    {
+      "path": "app/evaluation/parameter_formula.py",
+      "size": 8177,
+      "sha256": "edf17d7d49919e3ba8d1151d3bd199a4177d1b5859dce721d91d1f4d1b7adc1e",
+      "origin": "GIT_COMMIT",
+      "blob": "ce4b3b00738996353a11da968cc78c41cf0dad6b"
+    },
+    {
+      "path": "app/evaluation/resource_metadata_contract.py",
+      "size": 5499,
+      "sha256": "9e183896650ed3bfdf47e8595e5584d7d6c911f6d263a00e7597730bea614f8f",
+      "origin": "GIT_COMMIT",
+      "blob": "f29d15f6ed975d17bb1db915b784996bc86b1ca1"
+    },
+    {
+      "path": "app/evaluation/resource_parameter_formula.py",
+      "size": 13138,
+      "sha256": "77de64391aa457e5d237d46bcf72cafc11c69637cdf901f7e94035338939415c",
+      "origin": "GIT_COMMIT",
+      "blob": "d61b86ed4f6da8c0728d6b068b66b26afb93c98e"
+    },
+    {
+      "path": "app/evaluation/search_query_formula.py",
+      "size": 16207,
+      "sha256": "37910152bcb075e9156584189f5dd19b159f9073424da34d3bc4a56e3896d695",
+      "origin": "GIT_COMMIT",
+      "blob": "36757f336e05d03752f09fb4142932c99e0d34da"
+    },
+    {
+      "path": "app/main.py",
+      "size": 3166,
+      "sha256": "374cb1954364483e7eddedc9c766eddd7683ef9301f55e83e5d74fa85eb8a97f",
+      "origin": "GIT_COMMIT",
+      "blob": "afa3f9c5db42681923a6c71fbbf14470a9b3055b"
+    },
+    {
+      "path": "app/observability/__init__.py",
+      "size": 66,
+      "sha256": "0c0fa373c2865e3b36539706ab560252365126af049829947b6cf5a00ed9e7ee",
+      "origin": "GIT_COMMIT",
+      "blob": "78d6fb1eff3cf7173ec3268ba2c55c50a1a745da"
+    },
+    {
+      "path": "app/observability/costs.py",
+      "size": 9767,
+      "sha256": "3cbf42f9b77b0955ecf936ec35f4ce91adb07e4fd99fa80e42bc93e8c6d5dac4",
+      "origin": "GIT_COMMIT",
+      "blob": "f81f802dbf090256a76ed1345ad0e22e2d5ab64a"
+    },
+    {
+      "path": "app/observability/local_otlp.py",
+      "size": 8630,
+      "sha256": "0c5ff6ca5a98a74ecd7eac5665a407b3f12fb65d6b00c76fcfd33fcf6692ec01",
+      "origin": "GIT_COMMIT",
+      "blob": "51b86e1bd8efe50f7d4b25d8461f070956ede461"
+    },
+    {
+      "path": "app/observability/metrics.py",
+      "size": 7099,
+      "sha256": "092d04c114c0a7e45919f1170bb00a57145dcfe5123884f914f8b1a0f021dc3d",
+      "origin": "GIT_COMMIT",
+      "blob": "30afc7af3e252d32e9fbe4662bd82a2b90b986b9"
+    },
+    {
+      "path": "app/observability/tracing.py",
+      "size": 10975,
+      "sha256": "b181e3e399c3274153ab11a743a2ac6fc384f4380155f9d52eed9413fa0d6544",
+      "origin": "GIT_COMMIT",
+      "blob": "abd46197d2a6cd9aee1d58731fdae644573fb26d"
+    },
+    {
+      "path": "app/rag/__init__.py",
+      "size": 26,
+      "sha256": "a34e2f7d225ba68984d3e2ca0f54e436131284a6b861a12d72fe64f90cbf8e19",
+      "origin": "GIT_COMMIT",
+      "blob": "bca8d6e3be04883ce1a7aeaaabb6d2e13e0d01a1"
+    },
+    {
+      "path": "app/rag/embeddings.py",
+      "size": 1336,
+      "sha256": "2cab78f0187648c5034220c3f42e6be494457e585724a31b3a8506dfb54ed3f9",
+      "origin": "GIT_COMMIT",
+      "blob": "2ca8e4d9f281c10500a7b3751e1f3058f382c14e"
+    },
+    {
+      "path": "app/rag/evidence_claims.py",
+      "size": 29038,
+      "sha256": "05b9ed641c48b657b0ee3d4bf76acfc8fb551ed2b766460cd3c478ddd0686cc4",
+      "origin": "GIT_COMMIT",
+      "blob": "7e0f42af0849e59b752a45c1a748f81af8c8f083"
+    },
+    {
+      "path": "app/rag/evidence_reranker.py",
+      "size": 18025,
+      "sha256": "4eb4ca0e127d8f590b57785695084e59e6f78048193055a0cc3a186b1e9c5975",
+      "origin": "GIT_COMMIT",
+      "blob": "f3b7b176974e3b14352e42f0bde7fbdabbc4db26"
+    },
+    {
+      "path": "app/rag/hybrid_retriever.py",
+      "size": 15339,
+      "sha256": "9985d0b30374994a1df93079ce8899259d90878f67d145494f777081c2b4ab88",
+      "origin": "GIT_COMMIT",
+      "blob": "5c87e8edf3f2ea646b11c6cc3ea52f257ce67b10"
+    },
+    {
+      "path": "app/rag/loader.py",
+      "size": 1304,
+      "sha256": "469da679107351c230917aea606c7e42b849a9e6a73a67ebc87c383e1a711690",
+      "origin": "GIT_COMMIT",
+      "blob": "62d6bd37a5ee07b4619d2ca0490186c6bac83607"
+    },
+    {
+      "path": "app/rag/retriever.py",
+      "size": 1628,
+      "sha256": "41adcf0661ddaf79adbeaf5f8b00fc442563b7c92ba0fefa48021fc02d31224d",
+      "origin": "GIT_COMMIT",
+      "blob": "c01b7f438c4f83bbd82baf753ff01c7dd7b6af1b"
+    },
+    {
+      "path": "app/rag/splitter.py",
+      "size": 737,
+      "sha256": "53b79224ef9befd821cac8123ee9f119eb41b47af238fdc47282a3147f28afd9",
+      "origin": "GIT_COMMIT",
+      "blob": "56ee44068364141da640bbaf27f0f5635f928fa2"
+    },
+    {
+      "path": "app/rag/vector_store.py",
+      "size": 5897,
+      "sha256": "6f078723b960fbd5baa2ecff1d820e87a7b8fe83f1783321a2bc353d0301c1c5",
+      "origin": "GIT_COMMIT",
+      "blob": "0e834109cf8f5d9740ea6775c641f1e9089ccfcf"
+    },
+    {
+      "path": "app/release/__init__.py",
+      "size": 78,
+      "sha256": "c5e7455291d243b306a978c67d95732b333d0e5a5db10b26543563f92c88bda6",
+      "origin": "GIT_COMMIT",
+      "blob": "1576d9844730b900bfa5d573b7545cb037dbcac9"
+    },
+    {
+      "path": "app/release/publish_guard.py",
+      "size": 6730,
+      "sha256": "10f3e9b0aa5d5a890a9d0567e8cdd7c24218b83d4f3f744fbf610101b8459711",
+      "origin": "GIT_COMMIT",
+      "blob": "a21586c60efb29bc26e6c195e9ac850ee6554e90"
+    },
+    {
+      "path": "app/release/source_secret_scan.py",
+      "size": 5934,
+      "sha256": "73107ca96f0abf4db62eab99121030463d308e25349440c661276371e454281e",
+      "origin": "GIT_COMMIT",
+      "blob": "030c45d3ccd2119699982ba7578531d58bea0506"
+    },
+    {
+      "path": "app/schemas/__init__.py",
+      "size": 41,
+      "sha256": "2988ef7b2ba23f420759e18bc1121658fc428db6f3fa39b85033f46028518907",
+      "origin": "GIT_COMMIT",
+      "blob": "0f38b60b97aeb648a5fc8eb78bea08b9ab114ee1"
+    },
+    {
+      "path": "app/schemas/chat.py",
+      "size": 1829,
+      "sha256": "a9d15d3abb58948c706df40ffb84229cd8848fc86b327a4ac10e5a7c3dbf13aa",
+      "origin": "GIT_COMMIT",
+      "blob": "b7c19324c6c4ab9186b7249dabb2b713ad10eeb0"
+    },
+    {
+      "path": "app/schemas/diagnostic_sessions.py",
+      "size": 36270,
+      "sha256": "e7c902c220fd8bfdc43785b7eb2598e8a4cb21469cec0b95c12f8a06564f4eec",
+      "origin": "GIT_COMMIT",
+      "blob": "512f9222cc748fa3ed0f39e3122924b40dfab129"
+    },
+    {
+      "path": "app/schemas/evidence_claims.py",
+      "size": 34679,
+      "sha256": "94617420fbf92366ebc119c9f485355dace89cf517065a423633e9b08fbf8a73",
+      "origin": "GIT_COMMIT",
+      "blob": "11341aa682ea51409e3a8df7fe4dddf29eba422e"
+    },
+    {
+      "path": "app/schemas/evidence_rerank.py",
+      "size": 17003,
+      "sha256": "752588f40de8fe49d3d939ecb2bf6a2031557365ff201012efe5e77b9d98881b",
+      "origin": "GIT_COMMIT",
+      "blob": "5aa1ef795db57bfbae903d05189b84a01f657d2e"
+    },
+    {
+      "path": "app/schemas/evidence_search.py",
+      "size": 16461,
+      "sha256": "39cd6e069e91a82ba381c99f96abb8f0fd4fd3cafd275b2e8ccc39de64be036f",
+      "origin": "GIT_COMMIT",
+      "blob": "283179c639fc305746360bf87316641f201d3d08"
+    },
+    {
+      "path": "app/services/__init__.py",
+      "size": 44,
+      "sha256": "cdf8eae66ccdc28f6caca22882445960882128e298d8a63f347e7d3cc3aea2ce",
+      "origin": "GIT_COMMIT",
+      "blob": "2a55da7e16afbe68ed36df239f627d2788610fa7"
+    },
+    {
+      "path": "app/services/claim_effect_executor.py",
+      "size": 14827,
+      "sha256": "48e6941214a628e97dcb7916c073c2e49832ef448c71d857115da3274cd9680a",
+      "origin": "GIT_COMMIT",
+      "blob": "c0f92b3ded85f2dcd474d68d3f7fabfdf9dcb49c"
+    },
+    {
+      "path": "app/services/claim_effect_results.py",
+      "size": 14904,
+      "sha256": "98b457ae873a28772c26f2fe8f9643d7c8c04eddab64047f5f467c77ba27b277",
+      "origin": "GIT_COMMIT",
+      "blob": "f4190d3b17abfad1b7a697b5251e171f0b855117"
+    },
+    {
+      "path": "app/services/claim_sessions.py",
+      "size": 12555,
+      "sha256": "19103a77ae4a74e59b8682d1f3248972be3b5688afcb3540a4073985d9fe9cfe",
+      "origin": "GIT_COMMIT",
+      "blob": "c332f7c0b950e5fec8ddaddbe96b63e8139e46e2"
+    },
+    {
+      "path": "app/services/diagnostic_sessions.py",
+      "size": 375410,
+      "sha256": "9d1396a68c2a468a02c8ea7e604127b020b918c30ef765fd40372c5ccd1df0e8",
+      "origin": "GIT_COMMIT",
+      "blob": "7b60803459daba365c790f4235f0dc99f9f79e2e"
+    },
+    {
+      "path": "app/services/effect_capabilities.py",
+      "size": 13345,
+      "sha256": "e3e612a24aef6c6c2338febe5b849280c2de37806f16c9159c462f940bf12118",
+      "origin": "GIT_COMMIT",
+      "blob": "ca3d73f15881050ba1bcc823a5020f11bef97458"
+    },
+    {
+      "path": "app/services/effect_capabilities_v2.py",
+      "size": 10542,
+      "sha256": "d21d5781d70f8ef9b840564d079a957e3e229fd9b972a76ef4bdb32bd3c288ec",
+      "origin": "GIT_COMMIT",
+      "blob": "becb4d24f32c559ed550a2d68ccf734c5d44f1c6"
+    },
+    {
+      "path": "app/services/effect_records_v2.py",
+      "size": 10999,
+      "sha256": "355445e3aa50b93e8d99a7a9ef71b8e755248da75c0188660ff3d6d8d90f89e0",
+      "origin": "GIT_COMMIT",
+      "blob": "a79d4a123a588965475a8caebf87e4c5d90f2a8a"
+    },
+    {
+      "path": "app/services/llm.py",
+      "size": 7534,
+      "sha256": "ca4eb707432a1190e5652c082e473d76024c21ef68da144d7428ac7918be5729",
+      "origin": "GIT_COMMIT",
+      "blob": "32c4006f2b35b7ed7e6eacaa7806c11edf75de26"
+    },
+    {
+      "path": "app/services/synthetic_effects.py",
+      "size": 18169,
+      "sha256": "c7b94221955569d0774a727f76ffa3403f91f00849423385cf7b590525290efc",
+      "origin": "GIT_COMMIT",
+      "blob": "2e2b7449db343fabe27044040353b59dd0bef28b"
+    },
+    {
+      "path": "docker-compose.yml",
+      "size": 2859,
+      "sha256": "0369101d143b3063732b33dfcc09747cea0c21b7b3640b9b7aa56822752c7c76",
+      "origin": "GIT_COMMIT",
+      "blob": "364fbc4fc12c3ec1a1f897b797f655f3830ffc8d"
+    },
+    {
+      "path": "docs/demo.md",
+      "size": 2512,
+      "sha256": "96ce159cde65a7ee90688e6373ac6a5fe658b7558ce9e7f0940bd595cf56bf8f",
+      "origin": "PORTFOLIO_TEMPLATE",
+      "source": "packaging/github-portfolio/files/docs/demo.md"
+    },
+    {
+      "path": "docs/images/pending.png",
+      "size": 173340,
+      "sha256": "e640a2fdae2798fe5dce79ef419ed94997b087023b5834d9e613cd7e826a50eb",
+      "origin": "HISTORICAL_SYNTHETIC_BROWSER_CAPTURE",
+      "source": "design/qa/mod029h/desktop-pending-1440x1024.png",
+      "captured_date": "2026-09-30",
+      "frontend_tree": "83f049c0a7f06b5b8140b01cadf92341527cbe56"
+    },
+    {
+      "path": "docs/images/unknown.png",
+      "size": 130286,
+      "sha256": "781faf8eef585b560ccf7c9d32795668b89430d7134ee180a4f7553cc9b4c331",
+      "origin": "HISTORICAL_SYNTHETIC_BROWSER_CAPTURE",
+      "source": "demo_records/mod029k-local-063ceb6-v3/scene-7-completed_unknown.png",
+      "captured_date": "2026-09-30",
+      "frontend_tree": "83f049c0a7f06b5b8140b01cadf92341527cbe56"
+    },
+    {
+      "path": "docs/images/verified.png",
+      "size": 127273,
+      "sha256": "d17e87e5bd2e366663bd9ed3677ff10e697555d474119396e42d5cd8cfafd8e1",
+      "origin": "HISTORICAL_SYNTHETIC_BROWSER_CAPTURE",
+      "source": "demo_records/mod029k-local-063ceb6-v3/scene-6-completed_verified.png",
+      "captured_date": "2026-09-30",
+      "frontend_tree": "83f049c0a7f06b5b8140b01cadf92341527cbe56"
+    },
+    {
+      "path": "examples/__init__.py",
+      "size": 58,
+      "sha256": "2d0f3ae9dad42b790e79e9b481d0c549bd73e71e52b87ab4d399f71202754e58",
+      "origin": "SHOWCASE_TEMPLATE"
+    },
+    {
+      "path": "examples/offline_safety_demo.py",
+      "size": 2788,
+      "sha256": "562737e2364c426bc236ee44449de6cc2a6c880958297dc6c28f1b7005ada683",
+      "origin": "SHOWCASE_TEMPLATE"
+    },
+    {
+      "path": "frontend/__init__.py",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "GIT_COMMIT",
+      "blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "frontend/effect_v2.py",
+      "size": 3832,
+      "sha256": "c9626f31dc387a60bd7e518bb012a33f5ee3c4a0c24fcba50e9aec15847a3352",
+      "origin": "GIT_COMMIT",
+      "blob": "daa312350decb9754432a4531ca844befefe1377"
+    },
+    {
+      "path": "frontend/pages/1_智能诊断.py",
+      "size": 111394,
+      "sha256": "847882de9a3f3d2508a27e4f4248f5c5508f408e63d96474b96acbbf8185deeb",
+      "origin": "GIT_COMMIT",
+      "blob": "c8b6e97d79da1ee4f6c78ca393c1c59cac1ee8a7"
+    },
+    {
+      "path": "frontend/pages/2_故障工单.py",
+      "size": 9099,
+      "sha256": "408d92de54f2148c6b151471142f4a42512d418397120a914deb65a98ba79d23",
+      "origin": "GIT_COMMIT",
+      "blob": "6d63afd37ab88ee96dd5660454b751e5733b679a"
+    },
+    {
+      "path": "frontend/pages/3_历史记录.py",
+      "size": 6143,
+      "sha256": "171de2d75c2e08b517761ae1a9d11caa34a822edc0a83dbe75b93e543d95ebda",
+      "origin": "GIT_COMMIT",
+      "blob": "3e024e152478dc69f2954d11840772de1c8f5f37"
+    },
+    {
+      "path": "frontend/pages/4_知识库管理.py",
+      "size": 12538,
+      "sha256": "a205629deaeba55faa9c61cd3109dabeb9dfd742b0b57a38731c83f99d34e725",
+      "origin": "GIT_COMMIT",
+      "blob": "dee1b59f49a29dddee9fbb36602a644346df979e"
+    },
+    {
+      "path": "frontend/pages/5_设备管理.py",
+      "size": 9463,
+      "sha256": "8036d608e4ce1c712c9ae1a8df681e2326ab4c414c53c5583a156f5529dadbb3",
+      "origin": "GIT_COMMIT",
+      "blob": "bb307e41ab49c2b0e25c6351a07c58851417364e"
+    },
+    {
+      "path": "frontend/static/style.css",
+      "size": 41172,
+      "sha256": "75355eadddbf8c2c633dd309e28164573896ec2047ec74c68ef3c29158074664",
+      "origin": "GIT_COMMIT",
+      "blob": "1caecfba2fb19f629ba26fb2daa61a60f5b634f7"
+    },
+    {
+      "path": "frontend/streamlit_app.py",
+      "size": 7142,
+      "sha256": "a7ef6305b371e6ef0f04c7708b8274ed8355dc205c0521e196e8a1d8cce4ac0f",
+      "origin": "GIT_COMMIT",
+      "blob": "178d71aea90330344c912a7e093a1cb7e2efc28f"
+    },
+    {
+      "path": "frontend/theme.py",
+      "size": 3154,
+      "sha256": "acd1ac886bf12b0957d77b872aa6a19b8401e93d9acc7158d3d1ef258fda3665",
+      "origin": "GIT_COMMIT",
+      "blob": "1d7bba3f0df241ed0028cfa2609bb94e05d77e9b"
+    },
+    {
+      "path": "requirements-demo.txt",
+      "size": 159,
+      "sha256": "25a5e3b14f37e907dac53858e3e563d66e5f90b8334ea2f23804cceaba9e1c44",
+      "origin": "SHOWCASE_TEMPLATE"
+    },
+    {
+      "path": "requirements.txt",
+      "size": 847,
+      "sha256": "d4809a3c5d62d5f7ce9eb4ccfebe05c38dc153390c3e2202bce78168d20ae731",
+      "origin": "GIT_COMMIT",
+      "blob": "5961463aeea8c53ff5367e9e36fc3b31d83a4534"
+    },
+    {
+      "path": "tests/test_offline_safety.py",
+      "size": 7349,
+      "sha256": "5dbb7323feb6bf80c9a1be1e9435b4125efdcbd87950d1ce84030d4619192196",
+      "origin": "SHOWCASE_TEMPLATE"
+    }
+  ]
+}
